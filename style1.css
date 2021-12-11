@@ -1,0 +1,46 @@
+h1 {
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+img {
+  border-radius: 100px;
+}
+.thumbnail {
+  border-radius: 20px;
+  background-image: url("t.jpg");
+}
+body {
+  background-image: url("images12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  letter-spacing: 20px;
+  color: whitesmoke;
+  margin-left: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 35px;
+  flex: 20px;
+}
+.size {
+  margin-right: 100px;
+}
+p {
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.btn1 {
+  margin-right: 5%;
+  float: right;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 20px;
+  margin-top: -50px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-color: whitesmoke;
+}

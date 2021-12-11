@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"href="contact.css">
+
+</head>
+<body>
+    <div class="container">
+        <form method="post"action="contact.php">
+            <div class="col-lg-12">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h4>Contact Form</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label>First_Name:</label>
+                            <input type="text"id=fname class="form control"name="First_name" placeholder="first Name" required="please add your number"><br><br>
+                            <label>Last_Name:</label>
+                            <input type="text"name="last_name"placeholder="enter your Last name">
+                        </div>
+                        <div class="form-group">
+                            <label>Address:</label>
+                            <input type="text"name="Address"placeholder="enter your Address">
+                            <label>Contact Number</label>
+                            <input type="tel"name="Contact_Number"placeholder="Enter your 10 digit Contact number">
+                        
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Email_id</label>
+                            <input type="email"name="email"placeholder="enter your Email Id">
+                        </div>
+                        <!--
+                        <div class="form-group">
+                            <label for="STARTERS">STARTERS:</label>
+                            <input type="checkbox"name="Manchurian Dry"id="STARTERS">Manchurian Dry
+                            <input type="checkbox"name="Chilli Paneer Dry"id="STARTERS">Chilli Paneer Dry
+                            <input type="checkbox"name="Chilli Gobhi Dry"id="STARTERS">Chilli Gobhi Dry
+                            <input type="checkbox"name="Honey Chilli Potato"id="STARTERS">Honey Chilli Potato
+                            <input type="checkbox"name="Honey Chilli Gobhi"id="STARTERS">Honey Chilli Gobhi
+                            <input type="checkbox"name="Chilli Chaap Dry"id="STARTERS">Chilli Chaap Dry
+                            <input type="checkbox"name="Chilli Mushroom Dry"id="STARTERS">Chilli Mushroom Dry
+                            <input type="checkbox"name="Spring Roll"id="STARTERS">Spring Roll
+                            <input type="checkbox"name="Paneer Cheese Manchurian"id="STARTERS">Paneer Cheese Manchurian
+                            <input type="checkbox"name="Dahi Ke Sholay"id="STARTERS">Dahi Ke Sholay
+                            <input type="checkbox"name="Crispy Palak Corn"id="STARTERS">Crispy Palak Corn
+                            <input type="checkbox"name="Salt & Pepper"id="STARTERS">Salt & Pepper
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>PASTA:</label>
+                            <input type="checkbox"name="">white sauce pasta
+                            <input type="checkbox"name="">red sauce pasta
+                            <input type="checkbox"name="">mix sauce pasta
+                            <input type="checkbox"name="">Paneer Pasta
+                            <input type="checkbox"name="">baked pasta
+                            <input type="checkbox"name="">paneer baked pasta
+                            <input type="checkbox"name="">spcl.pasta
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>CHOWMEIN</label>
+                            <input type="checkbox"name="">Veg.chowmein
+                            <input type="checkbox"name="">Veg.butter chowmein
+                            <input type="checkbox"name="">Chilli Garlic Chowmein
+                            <input type="checkbox"name="">Paneer Chowmein
+                            <input type="checkbox"name="">Mushroom Chowmein
+                            <input type="checkbox"name="">Paneer Mushroom Chowmein
+                            <input type="checkbox"name="">Butter Paneer Chowmein
+                            <input type="checkbox"name="">Paneer Mushroom Chowmein
+                            <input type="checkbox"name="">Hakka Noodles
+                            <input type="checkbox"name="">veg.chopusey
+                            <input type="checkbox"name="">chinese chopsuey
+                            <input type="checkbox"name="">Paneer chopsuey
+                            <input type="checkbox"name="">cage.cafe spl chowmein
+                            <input type="checkbox"name="">Singapuri Chowmein
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>PIZZA</label>
+                            <input type="checkbox"name="">cheese pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            <input type="checkbox"name="">Single Topping pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Double Popping Pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Veggie Lover Pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Chilli Paneer Pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Chilli Mushroom pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Paneer Pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            <input type="checkbox"name="">Farmhouse pizza
+                            <input type="radio"name="PIZZA"value="6">6 inch
+                            <input type="radio"name="PIZZA"value="8">8 inch<br>
+                            
+                            
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>NACOS</label>
+                            <input type="checkbox"name="">Nacos Baked
+                            <input type="checkbox"name="">Nacos chaat
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>GARLIC BREAD</label>
+                            <input type="checkbox"name="">Garlic Bread Cheese
+                            <input type="checkbox"name="">Garlic Bread Spicy
+                            <input type="checkbox"name="">Exotica Garlic Bread
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>CHOWMEIN</label>
+                            <input type="checkbox"name="">Veg Burger
+                            <input type="checkbox"name="">Paneer Burger
+                            <input type="checkbox"name="">Paneer Cheese Burger
+                            <input type="checkbox"name="">Cheese Burger
+                            <input type="checkbox"name="">Chilli Paneer Burger
+                            <input type="checkbox"name="">Chowmein Burger
+                            <input type="checkbox"name="">Cafe Spl.Burger
+                        </div>
+                        <hr>-->
+                        <div class="form-group">
+                            <label>Message</label>
+                           <textarea placeholder="please enter your message here.............."cols="145" rows="10"name="message"></textarea>
+                        </div>
+                        <hr>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
